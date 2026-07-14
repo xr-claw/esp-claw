@@ -1,0 +1,25 @@
+version: 1.0.0
+# Peripherals Configuration for xr_ai_cam
+peripherals:
+  - name: spi_display
+    type: spi
+    role: master
+    config:
+      spi_bus_config:
+        spi_port: SPI3_HOST
+        mosi_io_num: 42
+        miso_io_num: -1
+        sclk_io_num: 41
+        max_transfer_sz: 153600
+
+  - name: ledc_backlight
+    type: ledc
+    role: none
+    config:
+      gpio_num: 39
+      channel: LEDC_CHANNEL_0
+      timer_sel: LEDC_TIMER_0
+      freq_hz: 5000
+      duty: 0
+      duty_resolution: LEDC_TIMER_10_BIT
+      output_invert: true
