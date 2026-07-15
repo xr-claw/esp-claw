@@ -1,0 +1,5 @@
+board: xr_ai_cam
+chip: esp32s3
+version: 1.0.0
+description: "ESP32-S3 board with XR-AI-CAM ST7789 320x240 SPI LCD, DIO 16MB flash, and Octal 8MB PSRAM"
+manufacturer: "CUSTOM"
