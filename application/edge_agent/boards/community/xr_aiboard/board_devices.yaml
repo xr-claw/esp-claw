@@ -1,0 +1,4 @@
+version: 1.0.0
+# Devices Configuration for xr_aiboard
+# Display and other devices will be added later.
+devices: []

@@ -1,0 +1,4 @@
+version: 1.0.0
+# Peripherals Configuration for xr_aiboard
+# Display SPI bus and backlight LEDC will be added later.
+peripherals: []

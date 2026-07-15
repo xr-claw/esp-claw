@@ -1,0 +1,5 @@
+board: xr_aiboard
+chip: esp32s3
+version: 1.0.0
+description: "ESP32-S3 board with DIO 16MB flash and Quad PSRAM"
+manufacturer: "CUSTOM"
